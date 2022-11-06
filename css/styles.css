@@ -1,0 +1,48 @@
+body{
+    background-color: #393939;
+    color: lightgrey;
+}
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    gap: 2em;
+}
+.title{
+    box-shadow: 0 0px 2px 1px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: .5em;
+}
+.buttom{
+    background-color: tomato;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.block{
+    box-shadow: 0 0px 2px 1px;
+    padding: 1em;
+    width: 20em;
+    height: 49em;
+    border-radius: 1em;
+}
+.block__title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.block__list{
+    padding: 1em;
+    width: 10em;
+}
+.block__item{
+    margin-bottom: 1em;
+}
+
